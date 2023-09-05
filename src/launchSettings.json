@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "Docker Compose": {
+      "commandName": "DockerCompose",
+      "commandVersion": "1.0",
+      "serviceActions": {
+        "quiik.abs.web": "StartDebugging",
+        "quiik.abs.appointment": "StartDebugging",
+        "quiik.abs.customer": "StartDebugging",
+        "quiik.abs.gateway": "StartDebugging"
+      }
+    }
+  }
+}

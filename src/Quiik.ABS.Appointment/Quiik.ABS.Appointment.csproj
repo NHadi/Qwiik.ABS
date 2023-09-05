@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>f14a6b72-37af-4bd8-b27d-50b445cedd97</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <DockerComposeProjectPath>..\docker-compose.dcproj</DockerComposeProjectPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="5.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer" Version="5.1.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="7.0.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.18.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Quiik.ABS.Appointment.Application\Quiik.ABS.Appointment.Application.csproj" />
+    <ProjectReference Include="..\Quiik.ABS.Appointment.Domain\Quiik.ABS.Appointment.Domain.csproj" />
+    <ProjectReference Include="..\Quiik.ABS.Appointment.Infrastructure\Quiik.ABS.Appointment.Infrastructure.csproj" />
+    <ProjectReference Include="..\Quiik.ABS.Common\Quiik.ABS.Common.csproj" />
+  </ItemGroup>
+
+</Project>

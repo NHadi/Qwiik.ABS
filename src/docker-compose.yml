@@ -1,0 +1,29 @@
+version: '3.4'
+
+services:
+  quiik.abs.web:
+    image: ${DOCKER_REGISTRY-}quiikabsweb
+    build:
+      context: .
+      dockerfile: Quiik.ABS.Web/Dockerfile
+
+  quiik.abs.appointment:
+    image: ${DOCKER_REGISTRY-}quiikabsappointment
+    build:
+      context: .
+      dockerfile: Quiik.ABS.Appointment/Dockerfile
+
+
+  quiik.abs.customer:
+    image: ${DOCKER_REGISTRY-}quiikabscustomer
+    build:
+      context: .
+      dockerfile: Quiik.ABS.Customer/Dockerfile
+
+
+  quiik.abs.gateway:
+    image: ${DOCKER_REGISTRY-}quiikabsgateway
+    build:
+      context: .
+      dockerfile: Quiik.ABS.Gateway/Dockerfile
+
