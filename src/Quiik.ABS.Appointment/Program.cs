@@ -1,16 +1,12 @@
 using Autofac.Extensions.DependencyInjection;
 using Autofac;
-using Quiik.ABS.Appointment.Application;
 using Quiik.ABS.Common;
-using Autofac.Core;
 using Microsoft.AspNetCore.Mvc.Versioning;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.OpenApi.Models;
 using Quiik.ABS.Appointment;
-using Microsoft.Extensions.Configuration;
-using Microsoft.EntityFrameworkCore;
-using Quiik.ABS.Appointment.Infrastructure;
 using Microsoft.AspNetCore.Mvc.ApiExplorer;
+using Quiik.ABS.Appointment.IoC;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -68,8 +64,6 @@ builder.Services.AddSwaggerGen(options =>
                 });
 });
 builder.Services.ConfigureOptions<ConfigureSwaggerOptions>();
-
-builder.Services.AddDbContext<ABS_AppointmentsContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 builder.Services.AddControllers();
 

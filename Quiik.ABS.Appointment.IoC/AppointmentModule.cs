@@ -6,19 +6,32 @@ using Quiik.ABS.Appointment.Domain;
 using Quiik.ABS.Appointment.Domain.Interface;
 using Quiik.ABS.Appointment.Infrastructure.Repositories;
 using System.Reflection;
+using Quiik.ABS.Appointment.Application;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
+using Quiik.ABS.Appointment.Infrastructure;
 
-namespace Quiik.ABS.Appointment.Application
+namespace Quiik.ABS.Appointment.IoC
 {
     public class AppointmentModule : Autofac.Module
     {
         protected override void Load(ContainerBuilder builder)
         {
+            // Context
+            builder.Register(x =>
+            {
+                var config = x.Resolve<IConfiguration>();
+                var optionsBuilder = new DbContextOptionsBuilder<ABS_AppointmentsContext>();
+                optionsBuilder.UseSqlServer(config.GetConnectionString("DefaultConnection"));
+                return new ABS_AppointmentsContext(optionsBuilder.Options);
+            }).InstancePerLifetimeScope();
+
+            // Respositories
             builder.RegisterType<AppointmentConfigurationRepository>().As<IAppointmentConfigurationRepository>();
-
             builder.RegisterType<AppointmentRepository>().As<IAppointmentRepository>();
-
             builder.RegisterType<TokenRepository>().As<ITokenRepository>();
 
+            //Service
             builder.RegisterType<AppointmentService>().As<IAppointmentService>();
 
             // Mapping Profile - Automapper

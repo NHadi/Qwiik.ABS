@@ -18,9 +18,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Quiik.ABS.Appointment.Application\Quiik.ABS.Appointment.Application.csproj" />
+    <ProjectReference Include="..\..\Quiik.ABS.Appointment.IoC\Quiik.ABS.Appointment.IoC.csproj" />
     <ProjectReference Include="..\Quiik.ABS.Appointment.Domain\Quiik.ABS.Appointment.Domain.csproj" />
-    <ProjectReference Include="..\Quiik.ABS.Appointment.Infrastructure\Quiik.ABS.Appointment.Infrastructure.csproj" />
     <ProjectReference Include="..\Quiik.ABS.Common\Quiik.ABS.Common.csproj" />
   </ItemGroup>
 

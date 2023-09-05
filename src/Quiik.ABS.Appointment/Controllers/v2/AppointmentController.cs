@@ -1,6 +1,4 @@
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Quiik.ABS.Appointment.Application;
 using Quiik.ABS.Appointment.Domain.DTO;
 using Quiik.ABS.Appointment.Domain.Interface;
 using Quiik.ABS.Common.DTO;

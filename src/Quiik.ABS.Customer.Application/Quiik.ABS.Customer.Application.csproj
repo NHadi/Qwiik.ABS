@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Quiik.ABS.Customer.Domain\Quiik.ABS.Customer.Domain.csproj" />
+    <ProjectReference Include="..\Quiik.ABS.Customer.Infrastructure\Quiik.ABS.Customer.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>

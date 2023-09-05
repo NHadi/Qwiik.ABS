@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\src\Quiik.ABS.Appointment.Application\Quiik.ABS.Appointment.Application.csproj" />
+    <ProjectReference Include="..\src\Quiik.ABS.Appointment.Domain\Quiik.ABS.Appointment.Domain.csproj" />
+    <ProjectReference Include="..\src\Quiik.ABS.Appointment.Infrastructure\Quiik.ABS.Appointment.Infrastructure.csproj" />
+    <ProjectReference Include="..\src\Quiik.ABS.Common\Quiik.ABS.Common.csproj" />
+  </ItemGroup>
+
+</Project>
