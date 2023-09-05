@@ -5,11 +5,11 @@ using Quiik.ABS.Appointment.Domain.DTO;
 using Quiik.ABS.Appointment.Domain.Interface;
 using Quiik.ABS.Common.DTO;
 
-namespace Quiik.ABS.Appointment.Controllers.v1
+namespace Quiik.ABS.Appointment.Controllers.v2
 {
     [ApiController]
     [Route("api/v{version:apiVersion}/[controller]")]
-    [ApiVersion("1.0")]
+    [ApiVersion("2.0")]
     public class AppointmentController : ControllerBase
     {
         private readonly ILogger<AppointmentController> _logger;
@@ -41,7 +41,7 @@ namespace Quiik.ABS.Appointment.Controllers.v1
 
         }
 
-        [Route("ByDate")]
+        [Route("{date}/Bydate")]
         [HttpGet]
         public IActionResult ByDate(DateTime date)
         {

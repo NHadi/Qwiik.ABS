@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quiik.ABS.Web", "Quiik.ABS.Web\Quiik.ABS.Web.csproj", "{B3F9E8CA-65E4-4A23-BCD1-03338613A249}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quiik.ABS.Web", "Quiik.ABS.Web\Quiik.ABS.Web.csproj", "{B3F9E8CA-65E4-4A23-BCD1-03338613A249}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quiik.ABS.Tests", "Quiik.ABS.Tests\Quiik.ABS.Tests.csproj", "{8DD4E8C2-6F78-41C8-BCDC-31A99DC40942}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quiik.ABS.Tests", "Quiik.ABS.Tests\Quiik.ABS.Tests.csproj", "{8DD4E8C2-6F78-41C8-BCDC-31A99DC40942}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0. Common", "0. Common", "{E728FD2E-59FE-4A99-B5D1-A70EB8ACE72A}"
 EndProject
@@ -17,31 +17,29 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Application", "3. Applic
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Presentation", "4. Presentation", "{E72D6BDA-B6C9-411C-8EAD-32E884E070A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quiik.ABS.Common", "Quiik.ABS.Common\Quiik.ABS.Common.csproj", "{88ED6BBB-CF5A-45F1-BE46-4919CD171908}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quiik.ABS.Common", "Quiik.ABS.Common\Quiik.ABS.Common.csproj", "{88ED6BBB-CF5A-45F1-BE46-4919CD171908}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quiik.ABS.Customer.Domain", "Quiik.ABS.Customer.Domain\Quiik.ABS.Customer.Domain.csproj", "{ACA92001-5707-4D2C-866E-801C2D690995}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quiik.ABS.Customer.Domain", "Quiik.ABS.Customer.Domain\Quiik.ABS.Customer.Domain.csproj", "{ACA92001-5707-4D2C-866E-801C2D690995}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quiik.ABS.Customer.Infrastructure", "Quiik.ABS.Customer.Infrastructure\Quiik.ABS.Customer.Infrastructure.csproj", "{639036F0-8E46-4C55-8667-5E69ACB66682}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quiik.ABS.Customer.Infrastructure", "Quiik.ABS.Customer.Infrastructure\Quiik.ABS.Customer.Infrastructure.csproj", "{639036F0-8E46-4C55-8667-5E69ACB66682}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quiik.ABS.Appointment.Infrastructure", "Quiik.ABS.Appointment.Infrastructure\Quiik.ABS.Appointment.Infrastructure.csproj", "{96FDA478-EE53-4A61-B2FF-A1052D9946D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quiik.ABS.Appointment.Infrastructure", "Quiik.ABS.Appointment.Infrastructure\Quiik.ABS.Appointment.Infrastructure.csproj", "{96FDA478-EE53-4A61-B2FF-A1052D9946D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quiik.ABS.Customer", "Quiik.ABS.Customer\Quiik.ABS.Customer.csproj", "{7B06CBFD-C140-45B1-BEF4-ADF6A33BD9EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quiik.ABS.Customer", "Quiik.ABS.Customer\Quiik.ABS.Customer.csproj", "{7B06CBFD-C140-45B1-BEF4-ADF6A33BD9EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quiik.ABS.Appointment", "Quiik.ABS.Appointment\Quiik.ABS.Appointment.csproj", "{E4FC0E96-3021-449E-A3C9-AD49D4B2CB2B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quiik.ABS.Appointment", "Quiik.ABS.Appointment\Quiik.ABS.Appointment.csproj", "{E4FC0E96-3021-449E-A3C9-AD49D4B2CB2B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{3474EBD3-90D8-4BE7-85B3-9A186FEA8DFC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quiik.ABS.Customer.Application", "Quiik.ABS.Customer.Application\Quiik.ABS.Customer.Application.csproj", "{F0AFE370-2664-41F9-8EAC-669FCBFA4575}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quiik.ABS.Customer.Application", "Quiik.ABS.Customer.Application\Quiik.ABS.Customer.Application.csproj", "{F0AFE370-2664-41F9-8EAC-669FCBFA4575}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quiik.ABS.Appointment.Application", "Quiik.ABS.Appointment.Application\Quiik.ABS.Appointment.Application.csproj", "{6959BCC8-5EA4-4204-9039-C28218CBA9D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quiik.ABS.Appointment.Application", "Quiik.ABS.Appointment.Application\Quiik.ABS.Appointment.Application.csproj", "{6959BCC8-5EA4-4204-9039-C28218CBA9D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quiik.ABS.Gateway", "Quiik.ABS.Gateway\Quiik.ABS.Gateway.csproj", "{2A112D84-09D2-4635-962D-61A07ECD8439}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quiik.ABS.Gateway", "Quiik.ABS.Gateway\Quiik.ABS.Gateway.csproj", "{2A112D84-09D2-4635-962D-61A07ECD8439}"
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{30ED4BA2-CC1A-41C5-8324-A8016507B2A4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quiik.ABS.Appointment.Domain", "Quiik.ABS.Appointment.Domain\Quiik.ABS.Appointment.Domain.csproj", "{6D01637C-9FDA-4912-88F7-24DD4B2DF5B9}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{CDD3F384-913A-4F93-BAEB-00E42F080A56}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quiik.ABS.Appointment.Domain", "Quiik.ABS.Appointment.Domain\Quiik.ABS.Appointment.Domain.csproj", "{6D01637C-9FDA-4912-88F7-24DD4B2DF5B9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -101,10 +99,6 @@ Global
 		{6D01637C-9FDA-4912-88F7-24DD4B2DF5B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D01637C-9FDA-4912-88F7-24DD4B2DF5B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D01637C-9FDA-4912-88F7-24DD4B2DF5B9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CDD3F384-913A-4F93-BAEB-00E42F080A56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CDD3F384-913A-4F93-BAEB-00E42F080A56}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CDD3F384-913A-4F93-BAEB-00E42F080A56}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CDD3F384-913A-4F93-BAEB-00E42F080A56}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
